@@ -1,0 +1,236 @@
+<?php
+include('session.php');
+?>
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+  <title>Insert</title>
+  <style>
+    .sidenav {
+      height: 100%;
+      width: 250px;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #c3eafd;
+      overflow-x: hidden;
+      padding-top: 20px;
+    }
+
+    .navMain {
+      margin-top: 75px;
+      padding: 0px 10px;
+    }
+    .fontNavBar{
+      color: #666;
+      font-size: 14px;
+      font-weight: 400;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      line-height: 40px;
+      transition: all 0.4s ease-in-out;
+    }
+    .fontNavBar a {
+      padding: 6px 8px 6px 16px;
+      text-decoration: none;
+      color: #818181;
+      display: block;
+}
+    .fontNavBar a:hover {
+      color: #E3AE57;
+}
+    .main {
+        margin-left: 270px;
+        margin-top: -60px;
+        padding: 0px 10px;
+      }
+
+    .tableMain{
+        margin-left:250px;
+        margin-top: 45px;
+      }
+
+    .formMain{
+      margin-left:270px;
+      margin-top: 25px;
+    }
+    .picMain{
+      margin-left:1100px;
+      margin-top: 25px;
+    }
+    .capbox {
+    	background-color: #92D433;
+    	border: #B3E272 0px solid;
+    	border-width: 0px 12px 0px 0px;
+    	display: inline-block;
+    	*display: inline; zoom: 1; /* FOR IE7-8 */
+    	padding: 8px 40px 8px 8px;
+    	}
+
+    .capbox-inner {
+    	font: bold 11px arial, sans-serif;
+    	color: #000000;
+    	background-color: #DBF3BA;
+    	margin: 5px auto 0px auto;
+    	padding: 3px;
+    	-moz-border-radius: 4px;
+    	-webkit-border-radius: 4px;
+    	border-radius: 4px;
+    	}
+
+    #CaptchaDiv {
+    	font: bold 17px verdana, arial, sans-serif;
+    	font-style: italic;
+    	color: #000000;
+    	background-color: #FFFFFF;
+    	padding: 4px;
+    	-moz-border-radius: 4px;
+    	-webkit-border-radius: 4px;
+    	border-radius: 4px;
+    	}
+
+    #CaptchaInput { margin: 1px 0px 1px 0px; width: 135px; }
+</style>
+<body>
+  <div class="picMain">
+    <a href="index.html">
+    <img src="science-img.jpg" alt="Science" width ="100" height="100">
+    </a>
+  </div>
+  <p>
+    <div class="main">
+      <strong><font color =#3badf9><font size = 50px>Insert</font></font></strong>
+    </div>
+  </p>
+  <div class="sidenav">
+    <div class="navMain">
+      <div class="fontNavBar">
+        <center><a href="index.html">Home</a></center>
+        <center><a href="clubs.html">Clubs</a></center>
+        <center><a href="search.html">Search</a></center>
+        <center><a href="MultiSearch.html">Multi-Search</a></center>
+        <center><a href="insert452345241123445.php">Insert</a></center>
+        <center><a href="updateIndex.php">Update</a></center>
+        <center><a href="deleteIndex.php">Delete</a></center>
+        <center><a href="studentsInsert.html">Student Sign-Up</a></center>
+      </div>
+    </div>
+  </div>
+
+  <div class="formMain">
+    <form id ="MainForm" onsubmit="checkform(this);">
+    <!-- START CAPTCHA -->
+    <!-- END CAPTCHA -->
+    <!-- <form id="MainForm" onsubmit="post();"> -->
+      <div class="form-inline">
+      <input type="text" id="clubName" name="clubName" placeholder="Club Name:" style ="height:45px;" size ="60" required>&emsp;&emsp;
+      <input type="text" id="Class" name="Class" placeholder="Class Room:" style ="height:45px;" size ="30" required>
+      </div>
+      <br>
+      <div>
+        <input type="text" id="FirstName" name="FirstName" placeholder="Organiser First Name:" style ="height:45px;" size ="50" required>&emsp;&emsp;
+      </div>
+      <br>
+      <div>
+        <input type="text" id="LastName" name="LastName" placeholder="Organiser Last Name:" style ="height:45px;" size ="50" required>
+      </div>
+      <br>
+      <div>
+        <input type="text" id="Form" name="Form" placeholder="Organiser Form:" style ="height:45px;" size ="50" required>
+      </div>
+      <br>
+      <br>
+      <div class="g-recaptcha" data-sitekey="6LeHfY8UAAAAAHE2N79_5GYUNJj-BgqQJYTh_e9g"></div>
+      <div class="capbox">
+
+      <div id="CaptchaDiv"></div>
+
+      <div class="capbox-inner">
+      Type the above number:<br>
+
+      <input type="hidden" id="txtCaptcha">
+      <input type="text" name="CaptchaInput" id="CaptchaInput" size="15" required><br>
+      </div>
+      </div>
+      <br>
+      <div>
+      <button type="Submit" id=button name=button>Submit</button>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+      <button id="logout"><a href="logout.php">Log Out</a></button>
+    </div>
+    </form>
+  </div>
+<script type="text/javascript">
+$('#MainForm').submit(function (e) {
+  e.preventDefault();
+});
+  function checkform(theform){
+  var why = "";
+
+  if(theform.CaptchaInput.value == ""){
+  why += "Please Enter CAPTCHA Code.\n";
+  alert(why);
+
+  }
+  else if(theform.CaptchaInput.value != ""){
+    if(ValidCaptcha(theform.CaptchaInput.value) == false){
+      why += "The CAPTCHA Code Does Not Match.\n";
+      alert(why);
+
+    }
+    else{
+      post();
+    }
+
+    }
+  }
+
+  var a = Math.ceil(Math.random() * 9)+ '';
+  var b = Math.ceil(Math.random() * 9)+ '';
+  var c = Math.ceil(Math.random() * 9)+ '';
+  var d = Math.ceil(Math.random() * 9)+ '';
+  var e = Math.ceil(Math.random() * 9)+ '';
+
+  var code = a + b + c + d + e;
+  document.getElementById("txtCaptcha").value = code;
+  document.getElementById("CaptchaDiv").innerHTML = code;
+
+  // Validate input against the generated number
+  function ValidCaptcha(){
+  var str1 = removeSpaces(document.getElementById('txtCaptcha').value);
+  var str2 = removeSpaces(document.getElementById('CaptchaInput').value);
+  if (str1 == str2){
+  return true;
+  }else{
+  return false;
+  }
+  }
+
+  function post()
+  {
+    var clubName = $('#clubName').val();
+    var classroom= $('#Class').val();
+    var firstName= $('#FirstName').val();
+    var lastName= $('#LastName').val();
+    var form= $('#Form').val();
+    $.post('insert.php',{postclubName:clubName, postClass:classroom, postfirstName:firstName, postlastName:lastName, postForm:form},
+    function(data)
+    {
+        alert("success");
+        location.replace("insert452345241123445.php");
+
+
+  });
+}
+
+  // Remove the spaces from the entered and generated code
+  function removeSpaces(string){
+  return string.split(' ').join('');
+  }
+  </script>

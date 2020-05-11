@@ -1,0 +1,69 @@
+[09-Jan-2019 07:29:38 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/users/samar7995/public_html/db_connect.php on line 28
+[09-Jan-2019 07:29:39 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/users/samar7995/public_html/db_connect.php on line 28
+[09-Jan-2019 07:32:38 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/users/samar7995/public_html/db_connect.php on line 28
+[09-Jan-2019 07:32:38 UTC] PHP Warning:  mysql_connect(): Access denied for user 'samar7995_admin'@'localhost' (using password: YES) in /home/users/samar7995/public_html/db_connect.php on line 28
+[09-Jan-2019 07:32:40 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/users/samar7995/public_html/db_connect.php on line 28
+[09-Jan-2019 07:32:40 UTC] PHP Warning:  mysql_connect(): Access denied for user 'samar7995_admin'@'localhost' (using password: YES) in /home/users/samar7995/public_html/db_connect.php on line 28
+[09-Jan-2019 07:32:42 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/users/samar7995/public_html/db_connect.php on line 28
+[09-Jan-2019 07:32:42 UTC] PHP Warning:  mysql_connect(): Access denied for user 'samar7995_admin'@'localhost' (using password: YES) in /home/users/samar7995/public_html/db_connect.php on line 28
+[09-Jan-2019 07:32:58 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/users/samar7995/public_html/db_connect.php on line 28
+[09-Jan-2019 07:32:58 UTC] PHP Warning:  mysql_connect(): Access denied for user 'samar7995_admin'@'localhost' (using password: YES) in /home/users/samar7995/public_html/db_connect.php on line 28
+[09-Jan-2019 07:33:21 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/users/samar7995/public_html/db_connect.php on line 28
+[09-Jan-2019 07:33:58 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/users/samar7995/public_html/db_connect.php on line 28
+[31-Jan-2019 07:00:50 UTC] PHP Warning:  mysqli::query(): Empty query in /home/users/samar7995/public_html/get_all_clubs.php on line 34
+[31-Jan-2019 07:42:48 UTC] PHP Warning:  mysqli::query(): Empty query in /home/users/samar7995/public_html/get_all_clubs.php on line 34
+[23-Feb-2019 17:25:10 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/users/samar7995/public_html/login.php on line 14
+[23-Feb-2019 17:25:10 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/users/samar7995/public_html/login.php on line 18
+[23-Feb-2019 17:25:10 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/users/samar7995/public_html/login.php on line 19
+[23-Feb-2019 17:25:10 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/users/samar7995/public_html/login.php on line 21
+[23-Feb-2019 17:25:10 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/users/samar7995/public_html/login.php on line 25
+[23-Feb-2019 17:25:10 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/users/samar7995/public_html/login.php on line 26
+[23-Feb-2019 17:25:10 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/users/samar7995/public_html/login.php on line 33
+[23-Feb-2019 17:25:24 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/users/samar7995/public_html/login.php on line 14
+[23-Feb-2019 17:25:24 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/users/samar7995/public_html/login.php on line 18
+[23-Feb-2019 17:25:24 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/users/samar7995/public_html/login.php on line 19
+[23-Feb-2019 17:25:24 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/users/samar7995/public_html/login.php on line 21
+[23-Feb-2019 17:25:24 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/users/samar7995/public_html/login.php on line 25
+[23-Feb-2019 17:25:24 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/users/samar7995/public_html/login.php on line 26
+[23-Feb-2019 17:25:24 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/users/samar7995/public_html/login.php on line 33
+[23-Feb-2019 17:39:44 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/users/samar7995/public_html/login.php on line 14
+[23-Feb-2019 17:39:44 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/users/samar7995/public_html/login.php on line 18
+[23-Feb-2019 17:39:44 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/users/samar7995/public_html/login.php on line 19
+[23-Feb-2019 17:39:44 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/users/samar7995/public_html/login.php on line 21
+[23-Feb-2019 17:39:44 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/users/samar7995/public_html/login.php on line 25
+[23-Feb-2019 17:39:44 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/users/samar7995/public_html/login.php on line 26
+[23-Feb-2019 17:39:44 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/users/samar7995/public_html/login.php on line 33
+[23-Feb-2019 19:18:19 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'samar799_admin'@'localhost' (using password: YES) in /home/users/samar7995/public_html/session.php on line 3
+[23-Feb-2019 19:18:19 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/users/samar7995/public_html/session.php on line 5
+[23-Feb-2019 19:18:19 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/users/samar7995/public_html/session.php on line 10
+[23-Feb-2019 19:18:19 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/users/samar7995/public_html/session.php on line 12
+[23-Feb-2019 19:18:19 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/users/samar7995/public_html/session.php on line 15
+[23-Feb-2019 19:18:32 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'samar799_admin'@'localhost' (using password: YES) in /home/users/samar7995/public_html/session.php on line 3
+[23-Feb-2019 19:18:32 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/users/samar7995/public_html/session.php on line 5
+[23-Feb-2019 19:18:32 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/users/samar7995/public_html/session.php on line 10
+[23-Feb-2019 19:18:32 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/users/samar7995/public_html/session.php on line 12
+[23-Feb-2019 19:18:32 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/users/samar7995/public_html/session.php on line 15
+[23-Feb-2019 19:18:47 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'samar799_admin'@'localhost' (using password: YES) in /home/users/samar7995/public_html/session.php on line 3
+[23-Feb-2019 19:18:47 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/users/samar7995/public_html/session.php on line 5
+[23-Feb-2019 19:18:47 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/users/samar7995/public_html/session.php on line 10
+[23-Feb-2019 19:18:47 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/users/samar7995/public_html/session.php on line 12
+[23-Feb-2019 19:18:47 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/users/samar7995/public_html/session.php on line 15
+[23-Feb-2019 19:19:05 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'samar799_admin'@'localhost' (using password: YES) in /home/users/samar7995/public_html/login.php on line 14
+[23-Feb-2019 19:19:05 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/users/samar7995/public_html/login.php on line 18
+[23-Feb-2019 19:19:05 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/users/samar7995/public_html/login.php on line 19
+[23-Feb-2019 19:19:05 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/users/samar7995/public_html/login.php on line 21
+[23-Feb-2019 19:19:05 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/users/samar7995/public_html/login.php on line 25
+[23-Feb-2019 19:19:05 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/users/samar7995/public_html/login.php on line 26
+[23-Feb-2019 19:19:05 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/users/samar7995/public_html/login.php on line 33
+[23-Feb-2019 19:19:19 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'samar799_admin'@'localhost' (using password: YES) in /home/users/samar7995/public_html/login.php on line 14
+[23-Feb-2019 19:19:19 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/users/samar7995/public_html/login.php on line 18
+[23-Feb-2019 19:19:19 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, boolean given in /home/users/samar7995/public_html/login.php on line 19
+[23-Feb-2019 19:19:19 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/users/samar7995/public_html/login.php on line 21
+[23-Feb-2019 19:19:19 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/users/samar7995/public_html/login.php on line 25
+[23-Feb-2019 19:19:19 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/users/samar7995/public_html/login.php on line 26
+[23-Feb-2019 19:19:19 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/users/samar7995/public_html/login.php on line 33
+[23-Feb-2019 19:19:33 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'samar799_admin'@'localhost' (using password: YES) in /home/users/samar7995/public_html/db_connect.php on line 30
+[23-Feb-2019 19:19:38 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'samar799_admin'@'localhost' (using password: YES) in /home/users/samar7995/public_html/db_connect.php on line 30
+[25-Feb-2019 07:24:33 UTC] PHP Warning:  mysqli::query(): Empty query in /home/users/samar7995/public_html/update.php on line 36
+[10-Apr-2019 03:44:13 UTC] PHP Warning:  mysqli::query(): Empty query in /home/users/samar7995/public_html/get_all_clubs.php on line 34
+[10-Apr-2019 03:45:02 UTC] PHP Warning:  mysqli::query(): Empty query in /home/users/samar7995/public_html/update.php on line 36
