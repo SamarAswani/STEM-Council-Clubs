@@ -1,3 +1,2 @@
-# Clubs
-A website I created to run and organise STEM Clubs at Dubai College using a website. You are able to Search, Insert, Delete, Update and Sign-Up for Clubs.
-Created using HTML, Javascript, PHP, SQL, Ajax, CSS
+# STEM Council Clubs
+Developed a website for Dubai College's STEM Council in order to run and organise STEM clubs digitally and display news and events – using HTML, JavaScript, MySQL, jQuery, PHP, SQL, Ajax, CSS. Features included: Search, Insert, Delete, Update, Sign-Up for Clubs, Admin Users and Authentication.
